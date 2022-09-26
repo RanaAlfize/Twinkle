@@ -3,22 +3,92 @@
     <head>
         <meta charset="utf-8">
         <title>job requests</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-decoration: none;
+            }
+            .header{
+                width: 100%;
+                height: 200px;
+                display: block;
+                background-color: white;
+            }
+            .innerHeader{
+                width: 70%;
+                height: 100%;
+                display: block;
+                margin: 0 auto;
+            }
+            .logo{
+                height: 100%;
+                display: table;
+                float: left;
+            }
+            .logo img{
+                display: table-cell;
+                height: 200px;
+                width: 200px;
+            }
+            .nav{
+                float: right;
+                height: 100%;
+    
+            }
+            .nav a {
+                height: 100%;
+                display: table;
+                float: left;
+                padding: 0px 90px;
+    
+            }
+            .nav a li{
+                display: table-cell;
+                vertical-align: middle;
+                height: 100%;
+                color: slategrey;
+                font-family: 'monsterrat';
+                font-size: 20px;
+            }
+        </style>
     </head>
+    
     <body>
-        <H2>JOB REQUESTS</H2>
-        <br>
+        <div class="header">
+            <div class="innerHeader">
+                <div class="logo">
+                    <img src="logo.jpeg">
+                </div>
+                <ul class="nav">
+                    <a><li>Home</li></a>
+                    <a><li>About</li></a>
+                    <a><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <p class="contentheader">job requests<p>
+            <br>
 
-        <fieldset>
-            <p class="briefDet">Amal, girl, 8 years old<br>at home, 3PM~6PM</p>
-            <form action="#"><input type="button" value="send offer"></form>
-            <a href="requestDetails.html" >details</a>
-        </fieldset><br>
+            <fieldset>
+                <p class="briefDet">Amal, girl, 8 years old<br>at home, 3PM~6PM</p>
+                <form action="#"><input type="button" value="send offer"></form>
+                <a href="requestDetails.html" >details</a>
+            </fieldset><br>
+        </div>
 
         <fieldset>
             <p class="briefDet">Ahmed, boy, 6 years old<br>outside, 7PM~9PM</p>
             <form action="#"><input type="button" value="send offer"></form>
             <a href="requestDetails.html">details</a>
         </fieldset>
+        <div class="fixed-footer">
+            <div class="container">Copyright &copy; 2016 Your Company</div>        
+        </div>
+
+
 
     </body>
 </html>
