@@ -145,3 +145,52 @@ main h3{
 .info strong{
     display: inline-block;
 }
+/*lena*/
+h2.JRLTitle{
+    color: blueviolet;
+    font-size: 2.2em;
+    font-weight: 800;
+    padding: 10% 10% 7% 10%;
+    text-align: center;
+}
+.JRsContent{
+    margin-left: 380px;
+}
+.req-container{
+    margin-bottom: 60px;
+    background-color: rgba(191, 129, 252, 0.785);
+    width: 40em;
+    padding: 23px;
+    margin: 12px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 50%);
+}
+.req-info{
+    text-align: center;
+    font-size: larger;
+}
+.req-info p{
+    margin-bottom: 9px;
+    color: darkslategrey
+}
+.req-info a{
+    text-decoration: none;
+    width: 200px;
+    margin: 0 175px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 5);
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 1.1em;
+    padding: 10px 113px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+}
+.req-info a:hover{
+    background-color:  rgb(179, 247, 231);
+    transform: scale(1.1);
+}

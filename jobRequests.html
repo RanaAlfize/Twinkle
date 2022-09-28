@@ -3,92 +3,45 @@
     <head>
         <meta charset="utf-8">
         <title>job requests</title>
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                text-decoration: none;
-            }
-            .header{
-                width: 100%;
-                height: 200px;
-                display: block;
-                background-color: white;
-            }
-            .innerHeader{
-                width: 70%;
-                height: 100%;
-                display: block;
-                margin: 0 auto;
-            }
-            .logo{
-                height: 100%;
-                display: table;
-                float: left;
-            }
-            .logo img{
-                display: table-cell;
-                height: 200px;
-                width: 200px;
-            }
-            .nav{
-                float: right;
-                height: 100%;
-    
-            }
-            .nav a {
-                height: 100%;
-                display: table;
-                float: left;
-                padding: 0px 90px;
-    
-            }
-            .nav a li{
-                display: table-cell;
-                vertical-align: middle;
-                height: 100%;
-                color: slategrey;
-                font-family: 'monsterrat';
-                font-size: 20px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="Style.css">
     </head>
-    
+
     <body>
-        <div class="header">
-            <div class="innerHeader">
-                <div class="logo">
-                    <img src="logo.jpeg">
-                </div>
-                <ul class="nav">
-                    <a><li>Home</li></a>
-                    <a><li>About</li></a>
-                    <a><li>Contact</li></a>
-                </ul>
-            </div>
+        <header>
+            <a href="#"  class="logo"  > Twinkle </a>
+            <nav class="navagation">
+                <a  href="index.html#AboutTwinkl" > about Twinkle </a>
+                <a  href="index.html#commenQs" > FAQ </a>
+                <a  href="ParentsRegistration.html" > sing in as a parent </a>
+                <a  href="BabysitterRegistration.html" > sing in as a babysitter </a>
+    
+            </nav>
+        </header>
+
+        <h2 class="JRLTitle">Job Requests</h2>
+
+        <div class="JRsContent">
+        <div class="req-container">
+            <div class="info"><h3>Request 1</h3></div><!--adding div to get the css style .info h3-->
+            <div class="req-info">
+            <p><span>Amal</span>,  girl,  8y</p>
+            <p>at home, 3:00pm - 6:00pm</p>
+            <a class="details" href="requestDetails.html" >details</a></div>
         </div>
-        <div class="content">
-            <p class="contentheader">job requests<p>
-            <br>
-
-            <fieldset>
-                <p class="briefDet">Amal, girl, 8 years old<br>at home, 3PM~6PM</p>
-                <form action="#"><input type="button" value="send offer"></form>
-                <a href="requestDetails.html" >details</a>
-            </fieldset><br>
+        <div class="req-container">
+            <div class="info"><h3>Request 2</h3></div><!--adding div to get the css style .info h3-->
+            <div class="req-info">
+            <p><span>Abdullah</span>,  boy,  8y</p>
+            <p>at home,  7:30pm - 9:00pm</p>
+            <a class="details" href="requestDetails.html" >details</a></div>
         </div>
-
-        <fieldset>
-            <p class="briefDet">Ahmed, boy, 6 years old<br>outside, 7PM~9PM</p>
-            <form action="#"><input type="button" value="send offer"></form>
-            <a href="requestDetails.html">details</a>
-        </fieldset>
-        <div class="fixed-footer">
-            <div class="container">Copyright &copy; 2016 Your Company</div>        
+    </div><!--JRsContent-->
+    <footer class="footer">
+        <h5>contact us:</h5>  
+        <div>
+            <a href="mailto:Twinkle@hotmail.com"> 
+                <img  id="mailIcon" src="mail.png"  alt="mail icon"/>
+                </a>
         </div>
-
-
-
     </body>
 </html>
