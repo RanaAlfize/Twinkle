@@ -194,3 +194,21 @@ h2.JRLTitle{
     background-color:  rgb(179, 247, 231);
     transform: scale(1.1);
 }
+body{
+    background-image: url(bkg2.jpg);
+    background-size: cover;
+}
+.detailsBox{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 260px;
+    margin-left: 45px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+}
+.innerDetailsBox{
+    margin: 30px 40px 30px 20px;
+    background-color: rgba(191, 129, 252, 0.785);
+    border-radius: 15px;
+
+}
+/*lena*/
