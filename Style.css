@@ -17,6 +17,19 @@ header{
     padding: 10px 200px;
 }
 
+.r.header{
+    background-color:rgba(191, 129, 252, 0.785);
+    width: 100%;
+    position: fixed;
+    z-index: 1000 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+
+
 .logo{
     text-decoration: none;
     color: rgb(255, 255, 5);
@@ -24,6 +37,8 @@ header{
     font-weight: 700;
     font-size: 1.8em;
 }
+
+
 
 .navagation a{
     color:  rgb(255, 255, 5);
@@ -212,3 +227,4 @@ body{
 
 }
 /*lena*/
+
