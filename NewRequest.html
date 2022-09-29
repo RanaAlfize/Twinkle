@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title> New Request </title>
     <!--from w3doc-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <style>
       html, body {
@@ -122,7 +122,7 @@
       height: auto;
       }
       }
-    </style>
+    </style> -->
     <!--from w3doc-->
    </head> 
 
@@ -153,18 +153,56 @@
                 <h3>Place new request here</h3>
               </div>
               <div class="info">
-                <input class="fname" type="text" name="name" placeholder="Full name">
-                <input type="text" name="name" placeholder="Email">
-                <input type="text" name="name" placeholder="Phone number">
-                <input type="text" name="name" placeholder="Child name">
+
+                <h4> Enter child name </h4>
+                <input type="text" name="child name" placeholder="Child name">
+
+                <h4> Select child gender </h4>
                 <select>
-                  <option value="course-type" selected>Child age</option>
-                  <option value="short-courses">Months-2 years old</option>
-                  <option value="featured-courses">3-5 years old</option>
-                  <option value="undergraduate">6-8 years old</option>
-                  <option value="undergraduate">9-11 years old</option>
+                  <option selected>Gender</option>
+                  <option>girl</option>
+                  <option>boy</option>
                 </select>
+
+                <h4> Select child age </h4>
+                <select>
+                  <option selected>Child age</option>
+                  <option>Months-2 years old</option>
+                  <option>3-5 years old</option>
+                  <option>6-8 years old</option>
+                  <option>9-11 years old</option>
+                </select>
+
+                <h4> Choose date of service &amp; service start time </h4>
+                <input type="datetime-local" name="date" >
+
+                <h4> Select the duration of the service</h4>
+                <select>
+                  <option selected>Duration</option>
+                  <option>1-2 hours</option>
+                  <option>2-3 hours</option>
+                  <option>3-4 hours</option>
+                  <option>5-6 hours</option>
+                  <option>7-8 hours</option>
+                  <option>9-10 hours</option>
+                </select>
+
+                <h4> Select the type of service that you prefer </h4>
+                <select>
+                  <option selected>Select the service</option>
+                  <option>infant babysitting</option>
+                  <option>help in homework</option>
+                  <option>take care of children inside/outside home</option>
+                  <option>transports children (ex. school pickup and drop-off)</option>
+                  <option>healthy meals service</option>
+                  <option>others</option>
+                </select>
+
+                <h4> Do you have any notes? write them down! </h4>
+                <textarea name="notes" rows="6" cols="60" > </textarea>
+
               </div>
+              <br>
               <button type="submit" href="/">Submit</button>
             </form>
           </div>
