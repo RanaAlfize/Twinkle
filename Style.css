@@ -194,3 +194,7 @@ h2.JRLTitle{
     background-color:  rgb(179, 247, 231);
     transform: scale(1.1);
 }
+body{
+    background-image: url(bkg2.jpg);
+}
+/*lena*/
