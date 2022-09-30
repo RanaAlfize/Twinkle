@@ -169,7 +169,7 @@ main h3{
 }
 
 .card{
-    background-color:rgba(191, 129, 252, 0.4);
+    background-color:rgb(173, 142, 205);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -179,7 +179,7 @@ main h3{
 }
 /*rana*/
 .cardy { /* yeloowo card*/
-    background-color: #fbf476;;
+    background-color: rgb(234, 229, 135);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
