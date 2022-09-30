@@ -164,7 +164,7 @@ main h3{
     margin: 15px ;
     line-height: 200%
 }
-
+/*rana*/
 .cardy { /* yeloowo card*/
     background-color: #fbf476;;
     width: 25em;
@@ -184,6 +184,17 @@ main h3{
     margin: 15px ;
     line-height: 200%
 
+}
+
+.greyCard {
+    background-color: #737373;;
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+    line-height: 200% ;
+    opacity: 0.2;
 }
 
 .whitetcard {
