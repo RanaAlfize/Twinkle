@@ -16,6 +16,11 @@ header{
     align-items: center;
     padding: 3px 200px;
 }
+button{
+    color: rgb(18, 14, 16);
+    background-color: #d0b0d0;
+}
+
 
 .r.header{
     background-color:rgba(191, 129, 252, 0.785);
