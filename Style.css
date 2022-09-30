@@ -232,7 +232,8 @@ main h3{
 .info strong{
     display: inline-block;
 }
-/*lena*/
+/*lena begin*/
+
 h2.JRLTitle{
     color: blueviolet;
     font-size: 2.2em;
@@ -252,6 +253,46 @@ h2.JRLTitle{
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 5px 25px rgb(1 1 1 / 50%);
+    text-align: center;
+}
+.req-container .att{
+    color: blueviolet;;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.req-container .pending{
+    color: #e9b20f;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.req-container .accepted{
+    color:green;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.OfferDetailsBut{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 255, 5);
+    border-radius: 15px;
+    color: blueviolet;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 82px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+    margin-top: 10px;
+}
+.OfferDetailsBut:hover{
+    background-color:  rgb(179, 247, 231);
+    transform: scale(1.1);
+}
+.req-container p{
+    margin-bottom: 10px;
+    color: darkslategrey;
+    font-size: 1.1em;
 }
 .req-info{
     text-align: center;
@@ -286,19 +327,73 @@ body{
     background-size: cover;
 }
 .detailsBox{
-    background-color: white;
+    background-color: rgba(202, 153, 250, 0.785);;
     border-radius: 10px;
-    margin-right: 260px;
-    margin-left: 45px;
+    margin-left: 300px;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    width: 830px;
+    padding: 25px 0;
 }
-.innerDetailsBox{
-    margin: 30px 40px 30px 20px;
-    background-color: rgba(191, 129, 252, 0.785);
+.infoBox{
+    margin-left: 70px;
+}
+.detailsBox p {
+    margin-bottom: 10px;
+}
+span.value{
+    margin-left: 50px;
+    color: darkslategrey;
+}
+span.att{
+    color: blueviolet;;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+form.sendOffer{
+    display: inline;
+}
+.sendOffer input{
+    background-color: rgb(255, 255, 5);
+    border-color: rgb(255, 255, 5);
     border-radius: 15px;
-
+    border-style: none;
+    width: 200px;
+    color: blueviolet;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+    justify-content: center;
+    margin: 30px 0 10px 160px;
 }
-/*lena*/
+a.back{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 255, 5);
+    border-radius: 15px;
+    width: 200px;
+    color: blueviolet;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 82px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+a.back:hover ,.sendOffer input:hover{
+    background-color:  rgb(179, 247, 231);
+    transform: scale(1.1);
+}
+.category{
+    color: rgb(255, 255, 5);
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px 0 35px 380px;
+}
+/*lena end*/
 
 .center  {  display: flex;
     flex-direction: column;
