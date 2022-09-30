@@ -368,6 +368,31 @@ border-radius: 4px;
 
   }
 
+.mytitle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(141, 92, 188);
+    font-size: 5em;
+    font-weight: bolder;
+   position: relative;
+   top: 1.1em;
+
+}
+
+.mytitle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 226, 83);
+    font-size: 3em;
+    font-weight: bolder;
+   position: relative;
+   padding-top: 5%;
+   top: 1.1em;
+
+}
+
 
 .profilepic {
 
@@ -406,13 +431,47 @@ input[type="text"] {
     border: none;
 }
 
-.main.center.lightCard.adjustCard
-{
+.makeE {
+    background-image: linear-gradient(
+      to right,
+      #ffbe32,
+      #ffbe32 50%,
+      #ffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    margin-bottom: 2em;
+    margin-left: 3.3em;
+    font-size: 30px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .makeE:before {
+    content: '';
+    background: #ffbe32;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .makeE:hover {
+   background-position: 0;
+  }
+  
+  .makeE:hover::before {
+    width:100%;
+  }
 
-    
-    margin-top: 87em;
 
-}
 
 
 
