@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <link rel="stylesheet" type="text/css" href="myStyle.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" > -->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="TwinkleLogo.png" />
+    
+    <style>
+        *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color:rgba(191, 129, 252, 0.785);
+    width: 100%;
+    position: fixed;
+    z-index: 1000 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(255, 255, 5);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navagation a{
+    color:  rgb(255, 255, 5);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.navagation a:hover{
+    color: blueviolet;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(TwinkleLogo.png) no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-attachment: fixed;
+    
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main h2{
+    color:rgba(191, 129, 252, 0.785);
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgba(191, 129, 252, 0.785);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+main h3{
+    color: blueviolet ;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-btn{
+    color: blueviolet;
+    background-color: rgb(255, 255, 5);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.main-btn:hover{
+    background-color: rgb(179, 247, 231);
+    transform: scale(1.1);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color:rgba(191, 129, 252, 0.785);
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+}
+
+.icon img{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.info h3{
+    color: rgb(255, 255, 5);
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.info strong{
+    display: inline-block;
+}
+/*lena*/
+h2.JRLTitle{
+    color: blueviolet;
+    font-size: 2.2em;
+    font-weight: 800;
+    padding: 10% 10% 7% 10%;
+    text-align: center;
+}
+.JRsContent{
+    margin-left: 380px;
+}
+.req-container{
+    margin-bottom: 60px;
+    background-color: rgba(191, 129, 252, 0.785);
+    width: 40em;
+    padding: 23px;
+    margin: 12px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 50%);
+}
+.req-info{
+    text-align: center;
+    font-size: larger;
+}
+.req-info p{
+    margin-bottom: 9px;
+    color: darkslategrey
+}
+.req-info a{
+    text-decoration: none;
+    width: 200px;
+    margin: 0 175px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 5);
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 1.1em;
+    padding: 10px 113px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+}
+.req-info a:hover{
+    background-color:  rgb(179, 247, 231);
+    transform: scale(1.1);
+}
+
+#aboutTwinkle{
+    color: blueviolet;
+}
+
+.AboutUs .content {
+    width: 50em;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutUs .content .card{
+    background-color: white;
+}
+
+.AboutUs .info h3{
+    color: blueviolet;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(191, 129, 252, 0.785);
+    display: flex;
+    justify-content: center;
+}
+
+footer h5{
+    margin-top: 1.5em;
+    padding-right: .5em;
+}
+
+footer .contactIcons{
+    width: 30px;
+    height: 50%;
+    margin-top: 1em ;
+}
+/**************************************************/
+
+
+.registrationForm2 span{
+    font-size: smaller;
+    color: red;
+}
+
+#Pphoto{
+    visibility: hidden;   
+}
+
+    .form-btn{
+    color: blueviolet;
+    background-color: rgb(255, 255, 5);
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    padding: .5em;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: 0.7s ease;
+    }
+    
+    .form-btn:hover{
+    background-color: rgb(179, 247, 231);
+    transform: scale(1.1);
+}
+
+.registrationForm2{
+    margin: 3em;
+    padding: 3em;
+    text-align: center;
+}
+
+.registrationForm2 label{
+    padding: .5em;
+}
+
+.registrationForm2 .gender{
+    display: block;
+}
+
+#genderWord{
+    margin-right: 1em;
+}
+
+textarea {
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 100px;
+}
+
+.map , .form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------------------------------*/
+
+@media (max-width:1023) {
+    header{
+        padding: 5px 10px;  
+    }
+
+    .navagation{
+        padding-left: 2px;
+        padding: 2spx;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main h2{
+        font-size: 1em;
+    }
+
+    .main h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+}
+        </style>
+
+    </head>
+    <body>
+      <body>
+    <header>
+        <a href="index.html"  class="logo"  > Twinkle </a>
+        <nav class="navagation">
+            <a  href="index.html#AboutTwinkl" > about Twinkle </a>
+            <a  href="index.html#commenQs" > FAQ </a>
+            <a  href="ParentsRegistration.html" > sing in as a parent </a>
+            <a  href="BabysitterRegistration.html" > sing in as a babysitter </a>
+
+        </nav>
+    </header>
+
+    <section class="registerCards">
+        <div class="content">
+            <div class="card"  id="cardP">
+                <div class="icon">
+                    <img src="babysittericon.png" alt="machine icon">
+                </div>
+                
+                    <form class="registrationForm2" action="#" method="post">
+                        <label> First name:</label><span>*</span>
+                        <input type="text" name="FirstName" required>
+                        
+                        <label> Last name:</label><span>*</span>
+                        <input type="text" name="LastName" required>
+                        
+                        <label> Age:</label><span>*</span>
+                        <input type="number" name="age" required>
+                        
+                        <div class="gender">
+                        <label id="genderWord">  Gender: <span>*</span>  </label> 
+                        <label>  female:</label>
+                        <input type="radio" name="gender" value="F"/>
+                        <label>  Male:</label>
+                        <input type="radio" name="gender" value="M"/>
+                        </div>
+                        
+                        <label> City:</label><span>*</span>
+                        <input type="text" name="city" required>
+                        
+                        <label>  Email:</label><span>*</span>
+                        <input type="Email" name="email" required>
+                        
+                        <label> Password:</label><span>*</span>
+                        <input type="password" name="password" required>
+                        
+                        <label> Phone number:</label><span>*</span>
+                        <input type="text" name="PhoneNumber" required>
+                        
+                        <label> Bio:</label><span>*</span>
+                       <textarea placeholder="your experience, educayion, languages spoken, skilles, etc... " name="bio" > </textarea>
+                        
+                        <label> Photo:</label>
+                        <button type="button"  class="form-btn" onclick="document.getElementById('Pphoto').click()"> ubloud a photo </button>
+                        <input id="Pphoto" type="file" accept="image/*" name="photo" />
+
+                        <button type="submit" value="submit" class="form-btn"> submit</button>
+                        <button type="reset" value="reset" class="form-btn"> reset</button>
+
+
+                    </form>  
+
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <footer class="footer">
+        <h5>contact us:</h5>  
+        <div >
+            <a href="mailto:Twinkle@hotmail.com"> 
+                <img  id="mailIcon" src="mail.png"  alt="mail icon"  class="contactIcons">
+                </a>
+        </div>
+        
+
+    </footer> 
+          
+  </body>
+</html>
+
