@@ -28,7 +28,20 @@ header{
     padding: 10px 200px;
 }
 
+button {
+    width: 20%;
+    }
 
+button:hover, .btn-item:hover {
+    background: #cbcca4;
+    }
+    h1{
+        color: #512365;
+        
+    }
+    p {
+        font-size: x-large;
+    }
 
 .logo{
     text-decoration: none;
@@ -156,7 +169,7 @@ main h3{
 }
 
 .card{
-    background-color:rgba(191, 129, 252, 0.785);
+    background-color:rgba(191, 129, 252, 0.4);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
