@@ -77,10 +77,9 @@ header{
 }
 
 
-.form-btn1{
+.divv .form-btn1{
     color: white;
     background-color: blueviolet;
-    text-decoration: none;
     border: none;
     font-size: 1em;
     font-weight: 300;
@@ -93,14 +92,44 @@ header{
     transition: 0.7s ease;
     display: flex;
     justify-content: center;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
-.form-btn1:hover {
+.divv .form-btn1:hover {
     background-color: rgb(248, 226, 99);
     transform: scale(1.2);
     text-decoration: none;
 } 
+
+.divv a{
+    text-decoration: none;
+    color: white;
+}
+
+.divv .form-btn11{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 1em;
+    font-weight: 300;
+    display: inline-block;
+    padding: .3em;
+    letter-spacing: 0px;
+    border-radius: 15px;
+    margin-top: 2px;
+    margin-left: 2px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    display: inline;
+}
+.divv .form-btn11:hover {
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
+} 
+
 
 .main{
     width: 100%;
@@ -440,8 +469,10 @@ textarea {
                 <input type="Email" name="email" required>
                 <label> Password:</label>
                 <input type="password" name="password" required>
-                <button type="submit" value="submit" class="form-btn1" > <a href="ParentHome.html" class="form-btn1">sing in as a parent</a></button>
-                <button type="submit" value="submit" class="form-btn1"> <a href="BabysitterHome.html" class="form-btn1">sing in as a babysitter </a></button>
+                <div class="divv">
+                <button type="submit" value="submit" class="form-btn1" > <a href="ParentHome.html" >sing in as a parent</a></button>
+                <button type="submit" value="submit" class="form-btn1"> <a href="BabysitterHome.html" >sing in as a babysitter </a></button>
+                </div>
             </form>
             
         </div>
