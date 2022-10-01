@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color:rgba(191, 129, 252, 0.785);
+    background-color:rgb(162 119 155/ 79%);
     width: 100%;
     position: fixed;
     z-index: 1000 ;
@@ -69,7 +69,7 @@ section{
 }
 
 .main h2{
-    color:rgba(191, 129, 252, 0.785);
+    color:rgb(162 119 155/ 79%);
     font-size: 4em;
     font-weight: 900;
 }
@@ -92,7 +92,7 @@ main h3{
 }
 
 .main-btn{
-    color: blueviolet;
+    color: rgb(162 119 155/ 79%);
     background-color: rgb(255, 255, 5);
     text-decoration: none;
     font-size: 1.1em;
@@ -114,7 +114,7 @@ main h3{
 
 .main-btn2 {
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -139,7 +139,7 @@ main h3{
 /* START of Ghada */
 .main-btn3 {
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -163,7 +163,7 @@ main h3{
 } 
 .main-btnReject {
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -180,7 +180,7 @@ main h3{
     text-decoration: none;
 }
 
-.main-btnReject :hover {
+.main-btnReject:hover {
     background-color: rgb(203, 39, 17);
     transform: scale(1.2);
     text-decoration: none;
@@ -188,7 +188,7 @@ main h3{
 
 .main-btnEdit {
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -206,20 +206,20 @@ main h3{
 }
 
 .main-btnEdit:hover {
-    background-color: rgb(248, 226, 99);
+    background-color: rgb(156, 194, 240);
     transform: scale(1.2);
     text-decoration: none;
 } 
 
 #titleColor{
-    color: rgb(123, 54, 187);
+    color: rgb(84, 56, 110);
     font-size: 50px;
 }
 
 .GoBack{
     display: inline-block;
     text-decoration: none;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     border-radius: 15px;
     width: 200px;
     color: white;
@@ -237,7 +237,7 @@ main h3{
 }
 
 .cardFormGhada{
-    background-color: rgba(191, 129, 252, 0.785);
+    background-color: rgba(165, 146, 183, 0.785);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -249,11 +249,15 @@ main h3{
 #cancelColor{
     color: rgb(255, 255, 255);
 }
+#TopColor {
+    color: rgb(73, 16, 126);
+    font-size: x-large;
+}
 /* END of Ghada */
 
 .main-btndel {
     color: white;
-    background-color: blueviolet;
+    background-color:rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -295,7 +299,7 @@ main h3{
 }
 
 .card{
-    background-color: rgba(191, 129, 252, 0.785);
+    background-color: rgba(165, 146, 183, 0.785);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -305,7 +309,7 @@ main h3{
 }
 /*rana*/
 .cardy { /* yeloowo card*/
-    background-color: #fbf476;;
+    background-color: #fbf8b9;;
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
