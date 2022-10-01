@@ -136,7 +136,7 @@ main h3{
     transform: scale(1.2);
     text-decoration: none;
 } 
-/* START of Ghada's accept botton */
+/* START of Ghada */
 .main-btn3 {
     color: white;
     background-color: blueviolet;
@@ -161,7 +161,41 @@ main h3{
     transform: scale(1.2);
     text-decoration: none;
 } 
-/* END of Ghada's accept botton */
+#titleColor{
+    color: blueviolet;
+}
+
+.GoBack{
+    display: inline-block;
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 200px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 82px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.GoBack:hover ,.sendOffer input:hover{
+    background-color:  rgb(248, 226, 99);
+    transform: scale(1.1);
+}
+
+.cardFormGhada{
+    background-color: rgba(191, 129, 252, 0.785);
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+    margin-top:-200px;
+    line-height: 200%
+}
+/* END of Ghada */
 
 .main-btndel {
     color: white;
