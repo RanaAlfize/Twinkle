@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color:rgba(202, 186, 217, 0.785);
+    background-color:rgba(67, 40, 90, 0.785);
     width: 100%;
     position: fixed;
     z-index: 1000 ;
@@ -129,6 +129,7 @@ main h3{
     background-color: rgb(179, 247, 231);
     transform: scale(1.1);
 }
+
 
 .main-btn2 {
     color: white;
