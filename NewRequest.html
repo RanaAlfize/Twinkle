@@ -4,30 +4,40 @@
    <head>
     <meta charset="UTF-8">
     <title> New Request </title>
+    <link rel="stylesheet" type="text/css" href="StyleGhada.css">
    </head> 
 
    <body>
+    <header>
+      <a href="#"class="logo "><img src="noBG2.png"width="200"></a>
+       <nav class="navagation">
+   
+          <a  href="index.html#AboutTwinkl" > about Twinkle </a>
+           <a  href="index.html#commenQs" > FAQ </a>
+            <a href="ParentHome.html">Home</a>
+           
+       </nav>
+   </header>
     <p>
         <!--from w3doc-->
         <div>
-            <div>
+            <div class="center">
               
               <h1>Place a new request</h1>
+              <br>
               <p>To let us offer you our unique service, please fill the form with an accurate information</p>
               <div>
                 <!--go back to parent's page-->
-                <a class="btn-item" href="Parent.html">Go Back</a>
+                <a class="btn-item" href="ParentHome.html">Go Back</a>
                
               </div>
             </div>
             <!--WRITE THE ACTION-->
             <form action="http://deitel.com">
-              <div>
-                 
-                <h3>Place new request here</h3>
-              </div>
-              <fieldset>
-              <div>
+              
+              <fieldset class="main content" >
+                
+              <div class="card">
 
                 <h4> Enter child name </h4>
                 <input type="text" name="child name" placeholder="Child name">
@@ -74,11 +84,11 @@
                 </select>
 
                 <h4> Do you have any notes? write them down! </h4>
-                <textarea name="notes" rows="6" cols="60" > </textarea>
-
+                <textarea name="notes" rows="5" cols="50" > </textarea>
+                <button type="submit" href="/">Submit</button>
               </div>
               <br>
-              <button type="submit" href="/">Submit</button>
+              
               </fieldset>
             </form>
           </div>
