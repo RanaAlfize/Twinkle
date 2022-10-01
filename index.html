@@ -78,26 +78,44 @@ header{
 
 
 .form-btn1{
-    color: blueviolet;
-    background-color: rgb(255, 255, 5);
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
+    border: none;
     font-size: 1em;
+    font-weight: 300;
     display: inline-block;
-    padding: .5em;
-    border-radius: 5px;
-    margin-top: 2px;
+    padding: .3em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
     transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
+
+.form-btn1:hover {
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
+} 
 
 .main{
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(TwinkleLogo.png) no-repeat;
+    background: url(background.jpg);
+    background-size: cover;
     background-position: right;
-    background-size: contain;
     background-attachment: fixed;   
+}
+
+.main .singIn{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -129,9 +147,10 @@ section{
 }
 
 .main-btn{
-    color: blueviolet;
-    background-color: rgb(255, 255, 5);
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
+    border: none;
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
@@ -139,14 +158,17 @@ section{
     letter-spacing: 1px;
     border-radius: 15px;
     margin-top: 10px;
+    margin-left: 22px;
     transition: 0.7s ease;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .main-btn:hover{
-    background-color: rgb(179, 247, 231);
-    transform: scale(1.1);
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
 }
 
 .title{
@@ -168,7 +190,7 @@ section{
 
 .card{
     background-color:rgba(191, 129, 252, 0.785);
-    width: 25em;
+    width: 20em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
     padding: 25px;
@@ -276,8 +298,6 @@ footer .contactIcons{
 }
 /**************************************************/
 
-
-
 .registrationForm2 span{
     font-size: smaller;
     color: red;
@@ -286,24 +306,41 @@ footer .contactIcons{
 #Pphoto{
     visibility: hidden;   
 }
-
-    .form-btn{
-    color: blueviolet;
-    background-color: rgb(255, 255, 5);
+/************************************************************/
+.form-btn{
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
+    border: none;
     font-size: 1em;
+    font-weight: 400;
     display: inline-block;
-    padding: .5em;
-    border-radius: 5px;
-    margin-top: 5px;
+    padding: .7em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 8px;
     transition: 0.7s ease;
-    }
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
     
-    .form-btn:hover{
-    background-color: rgb(179, 247, 231);
-    transform: scale(1.1);
+.form-btn:hover{
+     background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
 }
 
+.cardR{
+    background-color:rgba(191, 129, 252, 0.785);
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+}
+/************************************************************/
 .registrationForm2{
     margin: 3em;
     padding: 3em;
@@ -312,14 +349,6 @@ footer .contactIcons{
 
 .registrationForm2 label{
     padding: .5em;
-}
-
-.registrationForm2 .gender{
-    display: block;
-}
-
-#genderWord{
-    margin-right: 1em;
 }
 
 textarea {
@@ -333,6 +362,15 @@ textarea {
     display: flex;
     justify-content: center;
 }
+/*******************************************************/
+#form-btn1 , #form-btn2{
+    display: inline;
+}
+
+#form-btnSub ,#form-btnRes{
+    display: inline;
+}
+/*****************************************************/
 /*-------------------------------------------------*/
 
 @media (max-width:1023) {
@@ -380,15 +418,15 @@ textarea {
 
 
     <header>
-        <a href="#"  class="logo"  > Twinkle </a>
-        <nav class="navagation">
-            <a  href="Index.html#aboutTwinkle" > about Twinkle </a>
-            <a  href="Index.html#commenQs" > FAQ </a>
-            <a  href="ParentsRegistration.html" > sing in as a parent </a>
-            <a  href="BabysitterRegistration.html" > sing in as a babysitter </a>
-
-        </nav>
-    </header> 
+        <a href="#" class="logo"><img src="logo.png" width="200"></a>
+       <nav class="navagation">
+   
+          <a  href="index.html#AboutTwinkl" > about Twinkle </a>
+           <a  href="index.html#commenQs" > FAQ </a>
+            <a href="index.html">Home</a>
+           
+       </nav>
+   </header>
         
     <section class="main">
          
@@ -402,8 +440,8 @@ textarea {
                 <input type="Email" name="email" required>
                 <label> Password:</label>
                 <input type="password" name="password" required>
-                <button type="submit" value="submit" class="form-btn1"> submit</button>
-                <button type="reset" value="reset" class="form-btn1"> reset</button>
+                <button type="submit" value="submit" class="form-btn1" > <a href="ParentHome.html" class="form-btn1">sing in as a parent</a></button>
+                <button type="submit" value="submit" class="form-btn1"> <a href="BabysitterHome.html" class="form-btn1">sing in as a babysitter </a></button>
             </form>
             
         </div>
@@ -419,7 +457,7 @@ textarea {
                     <img src="omthericon.png" alt="join as a parent"> 
                 </div>
                 <div class="info">
-                    <h3> juin as parents</h3>
+                    <h3> join as parents</h3>
                     <p>
                         No need to worry when you have to leave your kids at home, 
                         join now and book the right sitter. 
@@ -435,7 +473,7 @@ textarea {
                     <img src="babysittericon.png" alt="join as a parent"> 
                 </div>
                 <div class="info">
-                    <h3> juin as babysitter</h3>
+                    <h3> join as babysitter</h3>
                     <p>
                         If you love taking care of young children, 
                         we are here to provide training and the right environment for you.
@@ -493,7 +531,7 @@ textarea {
     </section>
         
         <section class="Aboutus">
-        <h2 class="title" id="aboutTwinkle"> About Twinkle </h2>
+        <h2 class="title" id="AboutTwinkl"> About Twinkle </h2>
         <div class="content">
             <div class="card">
                 <div class="icon">
@@ -526,4 +564,3 @@ textarea {
         
     </body>
 </html>
-
