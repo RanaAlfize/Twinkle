@@ -162,7 +162,8 @@ main h3{
     text-decoration: none;
 } 
 #titleColor{
-    color: blueviolet;
+    color: rgb(123, 54, 187);
+    font-size: 50px;
 }
 
 .GoBack{
@@ -194,6 +195,9 @@ main h3{
     margin: 15px ;
     margin-top:-200px;
     line-height: 200%
+}
+#cancelColor{
+    color: rgb(255, 255, 255);
 }
 /* END of Ghada */
 
