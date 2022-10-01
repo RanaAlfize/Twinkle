@@ -108,13 +108,13 @@ main h3{
 }
 
 .main-btn:hover{
-    background-color: rgb(179, 247, 231);
+    background-color: rgb(255, 230, 0);
     transform: scale(1.1);
 }
 
 .main-btn2 {
     color: white;
-    background-color: blueviolet ;
+    background-color: rgb(207, 170, 242) ;
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -122,7 +122,7 @@ main h3{
     display: inline-block;
     padding: 0.9375em 2.1875em;
     letter-spacing: 1px;
-    border-radius: 6px;
+    border-radius: 15px;
     margin-top: 10px;
     margin-left: 22px;
     transition: 0.7s ease;
@@ -133,6 +133,28 @@ main h3{
 
 .main-btn2:hover {
     background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
+} 
+
+.main-btndel {
+    color: blueviolet;
+    background-color: rgb(255, 255, 5);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.main-btndel:hover {
+    background-color: rgb(203, 39, 17);
     transform: scale(1.2);
     text-decoration: none;
 }
@@ -194,7 +216,7 @@ main h3{
     padding: 25px;
     margin: 15px ;
     line-height: 200% ;
-    opacity: 0.2;
+    opacity: 0.9;
 }
 
 .whitetcard {
@@ -403,6 +425,16 @@ a.back:hover ,.sendOffer input:hover{
     min-height: 100vh;
 }
 
+.Mycenter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    min-height: 5em;
+}
+
 
 .btn-1 {
     background: #fbf476;
@@ -490,7 +522,7 @@ border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 226, 83);
+    color: rgb(255, 213, 0);
     font-size: 3em;
     font-weight: bolder;
    position: relative;
@@ -540,8 +572,8 @@ input[type="text"] {
 .makeE {
     background-image: linear-gradient(
       to right,
-      #ffbe32,
-      #ffbe32 50%,
+      #511067,
+      #511067 50%,
       #ffff 50%
     );
     background-size: 200% 100%;
@@ -559,7 +591,7 @@ input[type="text"] {
   
   .makeE:before {
     content: '';
-    background: #ffbe32;
+    background: #511067;
     display: block;
     position: absolute;
     bottom: -3px;
@@ -630,3 +662,18 @@ p.rev {
 
   /* end Hessah */
   /*--------------------------------------------------------*/
+#pjobs {
+    margin-top: 70px;
+}
+
+  a {
+    text-decoration: none;
+  }
+
+
+  .main.content.makeR {
+
+position: relative;
+right: 300px;
+  }
+
