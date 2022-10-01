@@ -114,7 +114,7 @@ main h3{
 
 .main-btn2 {
     color: white;
-    background-color: rgb(207, 170, 242) ;
+    background-color: blueviolet;
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -138,9 +138,10 @@ main h3{
 } 
 
 .main-btndel {
-    color: blueviolet;
-    background-color: rgb(255, 255, 5);
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
+    border: none;
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
@@ -148,9 +149,11 @@ main h3{
     letter-spacing: 1px;
     border-radius: 15px;
     margin-top: 10px;
+    margin-left: 22px;
     transition: 0.7s ease;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .main-btndel:hover {
@@ -178,7 +181,7 @@ main h3{
 }
 
 .card{
-    background-color:rgba(191, 129, 252, 0.785);
+    background-color: rgba(191, 129, 252, 0.785);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -209,7 +212,7 @@ main h3{
 }
 
 .greyCard {
-    background-color: #737373;;
+    background-color:rgba(191, 129, 252, 0.785);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -222,7 +225,7 @@ main h3{
 .whitetcard {
 
     background-color: #efe5f0;;
-    color: rgba(191, 129, 252, 0.785);
+    color: black;
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -677,3 +680,8 @@ position: relative;
 right: 300px;
   }
 
+  .title.main-btn2.do {
+    background-color:rgb(241, 199, 255)
+  }
+
+ 
