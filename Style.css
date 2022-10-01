@@ -239,7 +239,7 @@ main h3{
     text-decoration: none;
 } 
 
-/* manal */
+/* manal 
 .title{
     display: flex;
     justify-content: center;
@@ -315,7 +315,7 @@ footer .contactIcons{
     height: 50%;
     margin-top: 1em ;
 }
-/**************************************************/
+
 
 .registrationForm2 span{
     font-size: smaller;
@@ -325,7 +325,7 @@ footer .contactIcons{
 #Pphoto{
     visibility: hidden;   
 }
-/************************************************************/
+
 .form-btn{
     color: white;
     background-color: blueviolet;
@@ -359,7 +359,7 @@ footer .contactIcons{
     padding: 25px;
     margin: 15px ;
 }
-/************************************************************/
+
 .registrationForm2{
     margin: 3em;
     padding: 3em;
@@ -381,7 +381,7 @@ textarea {
     display: flex;
     justify-content: center;
 }
-/*******************************************************/
+
 #form-btn1 , #form-btn2{
     display: inline;
 }
@@ -389,43 +389,8 @@ textarea {
 #form-btnSub ,#form-btnRes{
     display: inline;
 }
-/*****************************************************/
-/*-------------------------------------------------*/
 
-@media (max-width:1023) {
-    header{
-        padding: 5px 10px;  
-    }
-
-    .navagation{
-        padding-left: 2px;
-        padding: 2px;
-        font-size: .7em;
-    }
-
-    .title{
-        font-size: 1.8em;
-    }
-
-    section{
-        padding: 80px 20px;
-    }
-
-    .main h2{
-        font-size: 1em;
-    }
-
-    .main h3{
-        font-size: 1.6em;
-    }
-
-    .content{
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-/* manal */
+manal */
 
 
 /* START of Ghada */
@@ -1119,4 +1084,4 @@ right: 300px;
   section.cont{
     font-size: larger;
   }
-          
+       
