@@ -15,7 +15,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     <link rel="icon" href="TwinkleLogo.png" />
     
     <style>
-        *{
+         *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -53,50 +53,102 @@ header{
 .navagation a:hover{
     color: blueviolet;
 }
+/************************************************************/
+.singIn{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(191, 129, 252, 0.785);
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+    font-size: 1.3em;
+    margin-top: 4em;
+}
+
+.singIn label, input{
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+
+
+.form-btn1{
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 300;
+    display: inline-block;
+    padding: .5em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.form-btn1:hover {
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
+} 
+/************************************************************/
 
 .main{
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(TwinkleLogo.png) no-repeat;
+    background: url(background.jpg);
+    background-size: cover;
     background-position: right;
-    background-size: contain;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;   
+}
+/************************************************************/
+.main .singIn{
+    display: flex;
+    justify-content: center;
 }
 
+
+.main .singInForm h2{
+    color: yellow;
+    font-size: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.main .singInForm h2 span{
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+/************************************************************/
 section{
     padding: 100px 200px;
 }
 
-.main h2{
-    color:rgba(191, 129, 252, 0.785);
-    font-size: 4em;
-    font-weight: 900;
-}
-
-.main h2 span{
-    display: inline-block;
-    margin-top: 10px;
-    color: rgba(191, 129, 252, 0.785);
-    font-size: 1.4em;
-    font-weight: 500;
-}
-
-main h3{
-    color: blueviolet ;
-    font-size: 2em;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.main .lable1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
 }
 
 .main-btn{
-    color: blueviolet;
-    background-color: rgb(255, 255, 5);
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
+    border: none;
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
@@ -104,14 +156,17 @@ main h3{
     letter-spacing: 1px;
     border-radius: 15px;
     margin-top: 10px;
+    margin-left: 22px;
     transition: 0.7s ease;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .main-btn:hover{
-    background-color: rgb(179, 247, 231);
-    transform: scale(1.1);
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
 }
 
 .title{
@@ -133,11 +188,19 @@ main h3{
 
 .card{
     background-color:rgba(191, 129, 252, 0.785);
-    width: 25em;
+    width: 20em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px ;
+}
+
+.Aboutus .content .card{
+    background-color: white;
+}
+
+.Aboutus .content .card h3{
+    color: blueviolet;
 }
 
 .icon img{
@@ -212,23 +275,6 @@ h2.JRLTitle{
     transform: scale(1.1);
 }
 
-#aboutTwinkle{
-    color: blueviolet;
-}
-
-.AboutUs .content {
-    width: 50em;
-    display: flex;
-    justify-content: center;
-}
-
-.AboutUs .content .card{
-    background-color: white;
-}
-
-.AboutUs .info h3{
-    color: blueviolet;
-}
 
 footer{
     width: 100%;
@@ -248,8 +294,7 @@ footer .contactIcons{
     height: 50%;
     margin-top: 1em ;
 }
-/**************************************************/
-
+/***************** babysitter Registration css is down *********************************/
 
 .registrationForm2 span{
     font-size: smaller;
@@ -259,24 +304,41 @@ footer .contactIcons{
 #Pphoto{
     visibility: hidden;   
 }
-
-    .form-btn{
-    color: blueviolet;
-    background-color: rgb(255, 255, 5);
+/************************************************************/
+.form-btn{
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
+    border: none;
     font-size: 1em;
+    font-weight: 400;
     display: inline-block;
-    padding: .5em;
-    border-radius: 5px;
-    margin-top: 5px;
+    padding: .7em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 8px;
     transition: 0.7s ease;
-    }
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
     
-    .form-btn:hover{
-    background-color: rgb(179, 247, 231);
-    transform: scale(1.1);
+.form-btn:hover{
+     background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
 }
 
+.cardR{
+    background-color:rgba(191, 129, 252, 0.785);
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+}
+/************************************************************/
 .registrationForm2{
     margin: 3em;
     padding: 3em;
@@ -285,14 +347,6 @@ footer .contactIcons{
 
 .registrationForm2 label{
     padding: .5em;
-}
-
-.registrationForm2 .gender{
-    display: block;
-}
-
-#genderWord{
-    margin-right: 1em;
 }
 
 textarea {
@@ -306,7 +360,15 @@ textarea {
     display: flex;
     justify-content: center;
 }
+/*******************************************************/
+#form-btn1 , #form-btn2{
+    display: inline;
+}
 
+#form-btnSub ,#form-btnRes{
+    display: inline;
+}
+/*****************************************************/
 /*-------------------------------------------------*/
 
 @media (max-width:1023) {
@@ -347,19 +409,19 @@ textarea {
     <body>
       <body>
     <header>
-        <a href="index.html"  class="logo"  > Twinkle </a>
-        <nav class="navagation">
-            <a  href="index.html#AboutTwinkl" > about Twinkle </a>
-            <a  href="index.html#commenQs" > FAQ </a>
-            <a  href="ParentsRegistration.html" > sing in as a parent </a>
-            <a  href="BabysitterRegistration.html" > sing in as a babysitter </a>
-
-        </nav>
-    </header>
+        <a href="#" class="logo"><img src="logo.png" width="200"></a>
+       <nav class="navagation">
+   
+          <a  href="index.html#AboutTwinkl" > about Twinkle </a>
+           <a  href="index.html#commenQs" > FAQ </a>
+            <a href="index.html">Home</a>
+           
+       </nav>
+   </header>
 
     <section class="registerCards">
         <div class="content">
-            <div class="card"  id="cardP">
+            <div class="cardR"  id="cardP">
                 <div class="icon">
                     <img src="babysittericon.png" alt="machine icon">
                 </div>
@@ -373,14 +435,13 @@ textarea {
                         
                         <label> Age:</label><span>*</span>
                         <input type="number" name="age" required>
-                        
-                        <div class="gender">
-                        <label id="genderWord">  Gender: <span>*</span>  </label> 
-                        <label>  female:</label>
-                        <input type="radio" name="gender" value="F"/>
-                        <label>  Male:</label>
-                        <input type="radio" name="gender" value="M"/>
-                        </div>
+                        <table>
+                        <tr><td colspan="1">
+                        <label>  Gender:</label> <span>*</span></td>
+                       <td colspan="1">   female 
+                       <input type="radio" name="gender" value="F"/>
+                        male 
+                        <input type="radio" name="gender" value="M"/></td></table>
                         
                         <label> City:</label><span>*</span>
                         <input type="text" name="city" required>
@@ -401,8 +462,8 @@ textarea {
                         <button type="button"  class="form-btn" onclick="document.getElementById('Pphoto').click()"> ubloud a photo </button>
                         <input id="Pphoto" type="file" accept="image/*" name="photo" />
 
-                        <button type="submit" value="submit" class="form-btn"> submit</button>
-                        <button type="reset" value="reset" class="form-btn"> reset</button>
+                        <button type="submit" value="submit" class="form-btn" id="form-btn1"> submit</button>
+                        <button type="reset" value="reset" class="form-btn" id="form-btn2"> reset</button>
 
 
                     </form>  

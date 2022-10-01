@@ -263,7 +263,7 @@ main h3{
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
-    padding: 0.9375em 2.1875em;
+    padding: 0.9375em 2.4em;
     letter-spacing: 1px;
     border-radius: 15px;
     margin-top: 10px;
@@ -570,27 +570,34 @@ a.back:hover ,.sendOffer input:hover{
 
 
 .btn-1 {
-    background: #fbf476;
-    
-border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #000;
-    font-size: 20px;
-    padding: 10px 20px;
+
+
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
-    border: 0ch;
-    position: relative;
-    left: 35%;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 22px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 5em;
+
    
   }
   
   .btn-1:hover {
-    background: #e9b20f;
-    background-image: -webkit-linear-gradient(top, #e9b20f, #d9d634);
-    background-image: -moz-linear-gradient(top, #e9b20f, #d9d634);
-    background-image: -ms-linear-gradient(top, #e9b20f, #d9d634);
-    background-image: -o-linear-gradient(top, #e9b20f, #d9d634);
-    background-image: linear-gradient(to bottom, #e9b20f, #d9d634);
+ 
+
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
     text-decoration: none;
    
 
@@ -599,29 +606,28 @@ border-radius: 4px;
 
 
   .btn-2 {
-    background: #a910e6;
-
-    background-color: #cd88eb;
-
-    border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    justify-content: space-evenly;
+    color: white;
+    background-color: blueviolet;
     text-decoration: none;
-    border: 0ch;
-    position: relative;
-    left: 35%;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 22px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 5em;
   }
   
   .btn-2:hover {
-    background: #bf81fc;
-    background-image: -webkit-linear-gradient(top, #bf81fc, #8547c4);
-    background-image: -moz-linear-gradient(top, #bf81fc, #8547c4);
-    background-image: -ms-linear-gradient(top, #bf81fc, #8547c4);
-    background-image: -o-linear-gradient(top, #bf81fc, #8547c4);
-    background-image: linear-gradient(to bottom, #bf81fc, #8547c4);
+    background-color: rgb(177, 120, 215);
+    transform: scale(1.2);
     text-decoration: none;
   }
 
@@ -818,4 +824,7 @@ right: 300px;
     background-color:rgb(255, 231, 112)
   }
 
+  section.cont{
+    font-size: larger;
+  }
  
