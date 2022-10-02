@@ -20,6 +20,9 @@ header{
 #aHedear {
     color: #fbf8b9;;
 }
+#Htitile {
+    color: #8c6e9a;;
+}
 
 footer{
     width: 100%;
@@ -260,26 +263,193 @@ main h3{
     text-decoration: none;
 } 
 
-/* manal 
-.title{
+/*manal *********************/
+
+.singInManal{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(165, 146, 183, 0.785);
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+    font-size: 1.3em;
+    margin-top: 4em;
+}
+
+.singInManal label, input{
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+
+
+.divv .form-btn1{
+    color: white;
+    background-color: rgb(162 119 155/ 79%);
+    border: none;
+    font-size: 1em;
+    font-weight: 300;
+    display: inline-block;
+    padding: .3em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+.divv .form-btn1:hover {
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
+} 
+
+.divv a{
+    text-decoration: none;
+    color: white;
+}
+
+.divv .form-btn11{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 1em;
+    font-weight: 300;
+    display: inline-block;
+    padding: .3em;
+    letter-spacing: 0px;
+    border-radius: 15px;
+    margin-top: 2px;
+    margin-left: 2px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    display: inline;
+}
+.divv .form-btn11:hover {
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
+} 
+
+
+.mainManal{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;   
+}
+
+.mainManal .singInManal{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mainManal .singInFormManal h2{
+    color: yellow;
+    font-size: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.mainManal .singInFormManal h2 span{
+    color: #6d3763;
+    font-size: 1.5em;
+}
+
+
+section{
+    padding: 100px 200px;
+}
+
+.mainManal .lable1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blueviolet;
+    color:#6d3763;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
 }
 
-.content{
+.mainManal h2{
+    color:rgb(162 119 155/ 79%);
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.mainManal h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(162 119 155/ 79%);
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.mainManal h3{
+    color: rgb(162 119 155/ 79%) ;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-btnManal{
+    color: white;
+    background-color: rgb(162 119 155/ 79%);
+    text-decoration: none;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 22px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main-btnManal:hover{
+    background-color: rgb(248, 226, 99);
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6d3763;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.contentManal{
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.card{
-    background-color:rgb(162 119 155/ 79%);
+.cardManal{
+    background-color:rgba(165, 146, 183, 0.785);
     width: 20em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -287,34 +457,34 @@ main h3{
     margin: 15px ;
 }
 
-.Aboutus .content .card{
+.AboutusManal .contentManal .cardManal{
     background-color: white;
 }
 
-.Aboutus .content .card h3{
+.AboutusManal .contentManal .cardManal h3{
     color: rgb(162 119 155/ 79%);
 }
 
-.icon img{
+.iconManal img{
     width: 100%;
     height: 40%;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.info{
+.infoManal{
     text-align: center;
     margin-bottom: 5px;
 }
 
-.info h3{
+.infoManal h3{
     color: rgb(255, 255, 5);
     font-size: 1.2em;
     font-weight: 600;
     margin: 10px;
 }
 
-.info strong{
+.infoManal strong{
     display: inline-block;
 }
 
@@ -336,7 +506,7 @@ footer .contactIcons{
     height: 50%;
     margin-top: 1em ;
 }
-
+/**************************************************/
 
 .registrationForm2 span{
     font-size: smaller;
@@ -346,10 +516,10 @@ footer .contactIcons{
 #Pphoto{
     visibility: hidden;   
 }
-
-.form-btn{
+/************************************************************/
+.form-btnManal{
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1em;
@@ -366,21 +536,21 @@ footer .contactIcons{
     text-decoration: none;
 }
     
-.form-btn:hover{
-     background-color: rgb(248, 226, 99);
+.form-btnManal:hover{
+    background-color: rgb(248, 226, 99);
     transform: scale(1.2);
     text-decoration: none;
 }
 
-.cardR{
-    background-color:rgba(191, 129, 252, 0.785);
+.cardRManal{
+    background-color:rgba(165, 146, 183, 0.785);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px ;
 }
-
+/************************************************************/
 .registrationForm2{
     margin: 3em;
     padding: 3em;
@@ -398,11 +568,11 @@ textarea {
   height: 100px;
 }
 
-.map , .form-btn{
+.mapManal , .form-btnManal{
     display: flex;
     justify-content: center;
 }
-
+/*******************************************************/
 #form-btn1 , #form-btn2{
     display: inline;
 }
@@ -410,8 +580,46 @@ textarea {
 #form-btnSub ,#form-btnRes{
     display: inline;
 }
+/*****************************************************/
+/*-------------------------------------------------*/
 
-manal */
+@media (max-width:1023) {
+    header{
+        padding: 5px 10px;  
+    }
+
+    .navagation{
+        padding-left: 2px;
+        padding: 2px;
+        font-size: .7em;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main h2{
+        font-size: 1em;
+    }
+
+    .main h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+}
+
+
+
+/* end of manal *******************/
 
 
 /* START of Ghada */
@@ -563,7 +771,7 @@ manal */
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blueviolet;
+    color: rgb(102, 76, 128);
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
