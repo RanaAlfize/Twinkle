@@ -1115,8 +1115,14 @@ p.rev {
   .main.content.makeR {
 
 position: relative;
-right: 300px;
+right: -2em;
   }
+
+  .main.content.makeL {
+
+    position: relative;
+    left: 3em;
+      }
 
   .title.main-btn2.do {
     background-color:rgb(162 119 155/ 79%);
