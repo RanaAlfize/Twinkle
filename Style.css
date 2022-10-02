@@ -594,7 +594,8 @@ manal */
 }
 
 .lightCard {
-    background-color: #e1b8e7;;
+    /* background-color: #e1b8e7; */
+    background-color: rgb(149, 84,137);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -605,7 +606,7 @@ manal */
 }
 
 .greyCard {
-    background-color:rgba(191, 129, 252, 0.785);
+    background-color:rgba(149, 84, 137, 0.79);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -848,7 +849,8 @@ a.back:hover ,.sendOffer input:hover{
 
 
     color: white;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background-color:rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -882,7 +884,7 @@ a.back:hover ,.sendOffer input:hover{
 
   .btn-2 {
     color: white;
-    background-color: blueviolet;
+    background-color:rgb(162 119 155/ 79%);
     text-decoration: none;
     border: none;
     font-size: 1.1em;
@@ -901,7 +903,7 @@ a.back:hover ,.sendOffer input:hover{
   }
   
   .btn-2:hover {
-    background-color: rgb(177, 120, 215);
+    background-color: rgb(107, 69, 132);
     transform: scale(1.2);
     text-decoration: none;
   }
@@ -911,7 +913,7 @@ a.back:hover ,.sendOffer input:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(73, 16, 126);
+    color: #6d3763;
     font-size: 5em;
     font-weight: bolder;
    position: relative;
@@ -924,7 +926,7 @@ a.back:hover ,.sendOffer input:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(141, 92, 188);
+    color: rgba(103, 58, 95, 0.79);
     font-size: 5em;
     font-weight: bolder;
    position: relative;
@@ -936,7 +938,7 @@ a.back:hover ,.sendOffer input:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 213, 0);
+    color: #fff15b;
     font-size: 3em;
     font-weight: bolder;
    position: relative;
@@ -986,8 +988,8 @@ input[type="text"] {
 .makeE {
     background-image: linear-gradient(
       to right,
-      #511067,
-      #511067 50%,
+      #fff79b,
+      #fff79b 50%,
       #ffff 50%
     );
     background-size: 200% 100%;
@@ -1005,7 +1007,7 @@ input[type="text"] {
   
   .makeE:before {
     content: '';
-    background: #511067;
+    background: #fff79b;
     display: block;
     position: absolute;
     bottom: -3px;
@@ -1117,7 +1119,8 @@ right: 300px;
   }
 
   .title.main-btn2.do {
-    background-color:rgb(241, 199, 255)
+    background-color:rgb(162 119 155/ 79%);
+    color:rgba(103, 58, 95, 0.79);
   }
 
   .title.main-btn2.do:hover {
@@ -1126,5 +1129,10 @@ right: 300px;
 
   section.cont{
     font-size: larger;
+  }
+
+  .Thetitle{
+    color: #6d3763;
+    font-size: xx-large;
   }
        
