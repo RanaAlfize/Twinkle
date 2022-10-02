@@ -657,7 +657,7 @@ manal */
 /*lena begin*/
 
 h2.JRLTitle{
-    color: blueviolet;
+    color: rgb(84, 56, 110);
     font-size: 2.2em;
     font-weight: 800;
     padding: 10% 10% 7% 10%;
@@ -668,7 +668,7 @@ h2.JRLTitle{
 }
 .req-container{
     margin-bottom: 60px;
-    background-color: rgba(191, 129, 252, 0.785);
+    background-color: rgba(165, 146, 183, 0.785);
     width: 40em;
     padding: 23px;
     margin: 12px;
@@ -678,7 +678,7 @@ h2.JRLTitle{
     text-align: center;
 }
 .req-container .att{
-    color: blueviolet;;
+    color: rgb(84, 56, 110);
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -697,7 +697,7 @@ h2.JRLTitle{
 .OfferDetailsBut{
     display: inline-block;
     text-decoration: none;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     border-radius: 15px;
     color: white;
     font-size: 1.1em;
@@ -729,7 +729,7 @@ h2.JRLTitle{
     width: 200px;
     margin: 0 175px;
     border-radius: 15px;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     font-weight: 600;
     color: white;
     font-size: 1.1em;
@@ -749,12 +749,13 @@ body{
     background-size: cover;
 }
 .detailsBox{
-    background-color: rgba(202, 153, 250, 0.785);;
+    background-color: rgba(165, 146, 183, 0.785);
     border-radius: 10px;
     margin-left: 300px;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     width: 830px;
     padding: 25px 0;
+    margin-bottom: 50px;
 }
 .infoBox{
     margin-left: 70px;
@@ -767,12 +768,12 @@ span.value{
     color: darkslategrey;
 }
 span.att{
-    color: blueviolet;;
+    color: rgb(84, 56, 110);
     font-size: 1.2em;
     font-weight: 600;
 }
 p.reqID{
-    color: blueviolet;;
+    color: rgb(84, 56, 110);
     font-size: 1.3em;
     font-weight: 600;
     margin-left:70px;
@@ -782,8 +783,8 @@ form.sendOffer{
     display: inline;
 }
 .sendOffer input{
-    background-color: blueviolet;
-    border-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
+    border-color: rgb(162 119 155/ 79%);
     border-radius: 15px;
     border-style: none;
     width: 200px;
@@ -796,11 +797,12 @@ form.sendOffer{
     transition: 0.7s ease;
     justify-content: center;
     margin: 30px 0 10px 160px;
+    display: inline;
 }
 a.back{
     display: inline-block;
     text-decoration: none;
-    background-color: blueviolet;
+    background-color: rgb(162 119 155/ 79%);
     border-radius: 15px;
     width: 200px;
     color: white;
