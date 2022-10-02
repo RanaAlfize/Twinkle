@@ -598,7 +598,7 @@ manal */
 
 .lightCard {
     /* background-color: #e1b8e7; */
-    background-color: rgb(149, 84,137);
+    background-color: rgba(207, 123, 191, 0.592);
     width: 25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
@@ -937,6 +937,18 @@ a.back:hover ,.sendOffer input:hover{
    position: relative;
    top: 1.1em;
 
+}
+
+.wel.mytitle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(196 115 182 / 79%);
+    font-size: 5em;
+    font-weight: bolder;
+   position: relative;
+   top: 1.1em;
+    
 }
 
 .mytitle3 {
