@@ -1158,4 +1158,10 @@ right: -2em;
     color: #6d3763;
     font-size: xx-large;
   }
+
+  .info.fixCol {
+
+    background-color: rgba(207, 123, 191, 0.592);
+
+  }
        
