@@ -20,6 +20,9 @@ header{
 #aHedear {
     color: #fbf8b9;;
 }
+#Htitile {
+    color: #8c6e9a;;
+}
 
 footer{
     width: 100%;
@@ -563,7 +566,7 @@ manal */
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blueviolet;
+    color: rgb(102, 76, 128);
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
